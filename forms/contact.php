@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   // Créer le message
   $message = (new Swift_Message($_POST['subject']))
     ->setFrom(['contact@fabien-rousset.fr' => 'BOT Contact'])
-    ->setTo(['fabien.rousset@icloud.com' => 'Fabien Rousset'])
+    ->setTo([$receiving_email_address => 'Fabien Rousset'])
     ->setReplyTo([$_POST['email'] => $_POST['name']])
     ->setBody($_POST['message']);
 
