@@ -26,6 +26,11 @@ url("./fonts/bootstrap-icons.woff?1fa40e8900654d2863d011707b9fb6f2") format("wof
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* .portfolio-details-special {
+  height: 296px;
+  width: 132;
+} */
+
 .bi-123::before { content: "\f67f"; }
 .bi-alarm-fill::before { content: "\f101"; }
 .bi-alarm::before { content: "\f102"; }
